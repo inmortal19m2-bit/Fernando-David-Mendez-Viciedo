@@ -1,3 +1,0 @@
-git init
-git add .
-git commit -m 'Primer commit: entrega IA1 - Fernando David Méndez Viciedo'
