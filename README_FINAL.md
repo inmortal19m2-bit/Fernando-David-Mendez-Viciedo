@@ -109,7 +109,6 @@ git push -u origin pruebas
 Nombre: Fernando David Méndez Viciedo
 Asignatura: Inteligencia Artificial I
 Entrega: Sistema experto en Prolog + Notebook Google Colab
-Enlace al repositorio: https://github.com/TU_USUARIO/IA1-Prolog-FernandoMendez
 Archivos: diagnostico.pl, IA1_GoogleColab.ipynb, README_FINAL.md
 Ramas: main, desarrollo, pruebas
 ```
@@ -133,12 +132,3 @@ Se implementó un sistema experto en Prolog que usa listas para asociar síntoma
 ## Bibliografía
 - SWI-Prolog -- https://www.swi-prolog.org/
 - Documentación Google Colab -- https://colab.research.google.com/
-
----
-
-## Checklist (antes de entregar)
-- [ ] Subir archivos al repo en GitHub.
-- [ ] Verificar que `diagnostico.pl` se carga en SWI-Prolog correctamente.
-- [ ] Ejecutar `IA1_GoogleColab.ipynb` en Colab.
-- [ ] Crear ramas: main, desarrollo, pruebas.
-- [ ] Hacer al menos 3 commits con mensajes descriptivos.
