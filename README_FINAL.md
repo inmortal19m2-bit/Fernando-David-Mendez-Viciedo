@@ -127,8 +127,3 @@ Se implementó un sistema experto en Prolog que usa listas para asociar síntoma
 - El sistema demuestra cómo representar conocimiento y razonar de forma simple con reglas.
 - Es una base para mejorar integrando bases de conocimiento más amplias o técnicas de aprendizaje.
 
----
-
-## Bibliografía
-- SWI-Prolog -- https://www.swi-prolog.org/
-- Documentación Google Colab -- https://colab.research.google.com/
