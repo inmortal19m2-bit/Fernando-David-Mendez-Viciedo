@@ -61,69 +61,8 @@ Abrir Google Colab (https://colab.research.google.com/), subir el archivo `IA1_G
 - Función para buscar subcadenas en una lista de palabras.
 - Heurística simple para evaluar síntomas.
 
----
 
-## GitHub — pasos exactos para crear el repositorio y cumplir requisitos del profesor
-> **Nombre del repositorio sugerido:** `IA1-Prolog-FernandoMendez`
 
-### 1) Crear el repositorio (web)
-1. Ingresar a https://github.com y crear un repositorio nuevo con el nombre sugerido.
-2. Seleccionar **Public** y no crear README (.gitignore ya incluido).
-3. Crear el repo vacío.
 
-### 2) Subir archivos (opción A - web)
-1. Abrir el repo en GitHub.
-2. Clic en **Add file -> Upload files**.
-3. Arrastrar todos los archivos del ZIP y hacer **Commit** con el mensaje: `Primer commit: entrega IA1 - Fernando David Méndez Viciedo`.
 
-### 3) Subir archivos (opción B - terminal, recomendado si sabes usar git)
-Abrir la terminal en la carpeta del proyecto y ejecutar (sustituir `TU_USUARIO` por tu usuario GitHub):
-```bash
-git init
-git add .
-git commit -m "Primer commit: entrega IA1 - Fernando David Méndez Viciedo"
-git branch -M main
-git remote add origin https://github.com/TU_USUARIO/IA1-Prolog-FernandoMendez.git
-git push -u origin main
-```
-
-### 4) Crear ramas exigidas por la asignatura (al menos 3 ramas)
-En la misma terminal o en la web crear las ramas `desarrollo` y `pruebas` además de `main`. Se sugiere crear commits de ejemplo en cada rama:
-```bash
-git checkout -b desarrollo
-# hacer un cambio menor (editar README) y commit
-git commit --allow-empty -m "Rama desarrollo: cambio de ejemplo"
-git push -u origin desarrollo
-
-git checkout -b pruebas
-git commit --allow-empty -m "Rama pruebas: cambio de ejemplo"
-git push -u origin pruebas
-```
-
-**Nota:** el profesor pide **al menos 3 ramas** y varios commits. Con lo anterior se cumple ese requisito.
-
----
-
-## Mensajes para enviar al profesor (copiar/pegar)
-```
-Nombre: Fernando David Méndez Viciedo
-Asignatura: Inteligencia Artificial I
-Entrega: Sistema experto en Prolog + Notebook Google Colab
-Archivos: diagnostico.pl, IA1_GoogleColab.ipynb, README_FINAL.md
-Ramas: main, desarrollo, pruebas
-```
-
----
-
-## Pequeña memoria (Introducción, Desarrollo, Conclusiones)
-### Introducción
-Este trabajo muestra la aplicación de conceptos básicos de inteligencia artificial: representación del conocimiento mediante hechos y reglas (Prolog), y programación práctica en Python para manipular estructuras de datos simples.
-
-### Desarrollo
-Se implementó un sistema experto en Prolog que usa listas para asociar síntomas a enfermedades y calcula un porcentaje de coincidencia. En paralelo se resolvieron ejercicios en Python que demuestran manejo de listas, bucles y funciones en Google Colab.
-
-### Conclusiones
-- Se alcanzaron los objetivos planteados en la asignatura.
-- El sistema demuestra cómo representar conocimiento y razonar de forma simple con reglas.
-- Es una base para mejorar integrando bases de conocimiento más amplias o técnicas de aprendizaje.
 
